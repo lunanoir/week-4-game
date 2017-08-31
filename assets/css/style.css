@@ -1,0 +1,43 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#guessingNumber {
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#score {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:15px;
+}
+
+.crystalImage {
+	height: 150px;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#result {
+	display: inline;
+	padding: 20px;
+}
